@@ -15,56 +15,56 @@ Analysis:
 President: George Washington
 Date: 1789-04-30T13:03:58-04:56
 Total Words: 2932
-Average word length: 5
-The word 'People' used 6 times
-The word 'government' used 6 times
-The word 'united' used 8 times
-The word 'our' used 2 times
+Average word length: 5.24
+The word 'People' used 6 times (0.20%)
+The word 'government' used 6 times (0.20%)
+The word 'united' used 8 times (0.27%)
+The word 'our' used 2 times (0.07%)
 
 President: Andrew Jackson
 Date: 1829-03-04T13:03:58-04:56
 Total Words: 2338
-Average word length: 5
-The word 'People' used 0 times
-The word 'government' used 9 times
-The word 'united' used 2 times
-The word 'our' used 36 times
+Average word length: 5.20
+The word 'People' used 0 times (0.00%)
+The word 'government' used 9 times (0.38%)
+The word 'united' used 2 times (0.09%)
+The word 'our' used 36 times (1.54%)
 
 President: Abraham Lincoln
 Date: 1860-02-27T13:03:58-04:56
 Total Words: 27684
-Average word length: 5
-The word 'People' used 8 times
-The word 'government' used 144 times
-The word 'united' used 32 times
-The word 'our' used 154 times
+Average word length: 5.02
+The word 'People' used 8 times (0.03%)
+The word 'government' used 144 times (0.52%)
+The word 'united' used 32 times (0.12%)
+The word 'our' used 154 times (0.56%)
 
 President: Andrew Johnson
 Date: 1868-02-11T11:11:58-04:56
 Total Words: 12582
-Average word length: 5
-The word 'People' used 0 times
-The word 'government' used 0 times
-The word 'united' used 12 times
-The word 'our' used 2 times
+Average word length: 5.04
+The word 'People' used 0 times (0.00%)
+The word 'government' used 0 times (0.00%)
+The word 'united' used 12 times (0.10%)
+The word 'our' used 2 times (0.02%)
 
 President: Barack Obama
 Date: 2010-01-27T13:00:00-05:00
 Total Words: 14450
-Average word length: 5
-The word 'People' used 40 times
-The word 'government' used 22 times
-The word 'united' used 14 times
-The word 'our' used 234 times
+Average word length: 5.03
+The word 'People' used 40 times (0.28%)
+The word 'government' used 22 times (0.15%)
+The word 'united' used 14 times (0.10%)
+The word 'our' used 234 times (1.62%)
 
 President: Bill Clinton
 Date: 1995-01-24T13:00:00-05:00
 Total Words: 18319
-Average word length: 4
-The word 'People' used 127 times
-The word 'government' used 58 times
-The word 'united' used 8 times
-The word 'our' used 274 times
+Average word length: 4.75
+The word 'People' used 127 times (0.69%)
+The word 'government' used 58 times (0.32%)
+The word 'united' used 8 times (0.04%)
+The word 'our' used 274 times (1.50%)
 
 
 

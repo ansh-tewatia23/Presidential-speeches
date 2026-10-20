@@ -3,7 +3,7 @@
  * Analyze the speeches of presidents from 3 different eras
  *
  * @author Ansh Tewatia and Neel Gullatti
- * @version 10/16
+ * @version 10/20
  */
 import java.io.File;
 import java.io.IOException;
@@ -164,11 +164,11 @@ public class Presidentialspeeches
         }
 
         System.out.println("Total Words: " + wordCount);
-        System.out.println("Average word length: "+(chars/wordCount));
-        System.out.println("The word 'People' used "+peopleCounter+" times");
-        System.out.println("The word 'government' used "+governmentCounter+" times");
-        System.out.println("The word 'united' used "+unitedCounter+" times");
-        System.out.println("The word 'our' used "+ourCounter+" times");
+        System.out.println("Average word length: "+String.format("%.2f", ((double)chars/wordCount)));
+        System.out.println("The word 'People' used "+peopleCounter+" times (" + String.format("%.2f", (double)peopleCounter / wordCount * 100) + "%)");
+        System.out.println("The word 'government' used "+governmentCounter+" times (" + String.format("%.2f", (double)governmentCounter / wordCount * 100) + "%)");
+        System.out.println("The word 'united' used "+unitedCounter+" times (" + String.format("%.2f", (double)unitedCounter / wordCount * 100) + "%)");
+        System.out.println("The word 'our' used "+ourCounter+" times (" + String.format("%.2f", (double)ourCounter / wordCount * 100) + "%)");
         System.out.println("");
         
         String president2 = extractJsonValue(jsonContent2, "president");
@@ -214,11 +214,11 @@ public class Presidentialspeeches
         }
 
         System.out.println("Total Words: " + wordCount2);
-        System.out.println("Average word length: " + (chars2 / wordCount2));
-        System.out.println("The word 'People' used " + peopleCounter2 + " times");
-        System.out.println("The word 'government' used " + governmentCounter2 + " times");
-        System.out.println("The word 'united' used " + unitedCounter2 + " times");
-        System.out.println("The word 'our' used " + ourCounter2 + " times");
+        System.out.println("Average word length: "+String.format("%.2f", ((double)chars2/wordCount2)));
+        System.out.println("The word 'People' used " + peopleCounter2 + " times (" + String.format("%.2f", (double)peopleCounter2 / wordCount2 * 100) + "%)");
+        System.out.println("The word 'government' used " + governmentCounter2 + " times (" + String.format("%.2f", (double)governmentCounter2 / wordCount2 * 100) + "%)");
+        System.out.println("The word 'united' used " + unitedCounter2 + " times (" + String.format("%.2f", (double)unitedCounter2 / wordCount2 * 100) + "%)");
+        System.out.println("The word 'our' used " + ourCounter2 + " times (" + String.format("%.2f", (double)ourCounter2 / wordCount2 * 100) + "%)");
         System.out.println();
         
         String president3 = extractJsonValue(jsonContent3, "president");
@@ -264,11 +264,11 @@ public class Presidentialspeeches
         }
 
         System.out.println("Total Words: " + wordCount3);
-        System.out.println("Average word length: " + (chars3 / wordCount3));
-        System.out.println("The word 'People' used " + peopleCounter3 + " times");
-        System.out.println("The word 'government' used " + governmentCounter3 + " times");
-        System.out.println("The word 'united' used " + unitedCounter3 + " times");
-        System.out.println("The word 'our' used " + ourCounter3 + " times");
+        System.out.println("Average word length: "+String.format("%.2f", ((double)chars3/wordCount3)));
+        System.out.println("The word 'People' used " + peopleCounter3 + " times (" + String.format("%.2f", (double)peopleCounter3 / wordCount3 * 100) + "%)");
+        System.out.println("The word 'government' used " + governmentCounter3 + " times (" + String.format("%.2f", (double)governmentCounter3 / wordCount3 * 100) + "%)");
+        System.out.println("The word 'united' used " + unitedCounter3 + " times (" + String.format("%.2f", (double)unitedCounter3 / wordCount3 * 100) + "%)");
+        System.out.println("The word 'our' used " + ourCounter3 + " times (" + String.format("%.2f", (double)ourCounter3 / wordCount3 * 100) + "%)");
         System.out.println();
         
         
@@ -315,11 +315,11 @@ public class Presidentialspeeches
         }
 
         System.out.println("Total Words: " + wordCount4);
-        System.out.println("Average word length: " + (chars4 / wordCount4));
-        System.out.println("The word 'People' used " + peopleCounter4 + " times");
-        System.out.println("The word 'government' used " + governmentCounter4 + " times");
-        System.out.println("The word 'united' used " + unitedCounter4 + " times");
-        System.out.println("The word 'our' used " + ourCounter4 + " times");
+        System.out.println("Average word length: "+String.format("%.2f", ((double)chars4/wordCount4)));
+        System.out.println("The word 'People' used " + peopleCounter4 + " times (" + String.format("%.2f", (double)peopleCounter4 / wordCount4 * 100) + "%)");
+        System.out.println("The word 'government' used " + governmentCounter4 + " times (" + String.format("%.2f", (double)governmentCounter4 / wordCount4 * 100) + "%)");
+        System.out.println("The word 'united' used " + unitedCounter4 + " times (" + String.format("%.2f", (double)unitedCounter4 / wordCount4 * 100) + "%)");
+        System.out.println("The word 'our' used " + ourCounter4 + " times (" + String.format("%.2f", (double)ourCounter4 / wordCount4 * 100) + "%)");
         System.out.println();
         
         
@@ -366,11 +366,11 @@ public class Presidentialspeeches
         }
 
         System.out.println("Total Words: " + wordCount5);
-        System.out.println("Average word length: " + (chars5 / wordCount5));
-        System.out.println("The word 'People' used " + peopleCounter5 + " times");
-        System.out.println("The word 'government' used " + governmentCounter5 + " times");
-        System.out.println("The word 'united' used " + unitedCounter5 + " times");
-        System.out.println("The word 'our' used " + ourCounter5 + " times");
+        System.out.println("Average word length: "+String.format("%.2f", ((double)chars5/wordCount5)));
+        System.out.println("The word 'People' used " + peopleCounter5 + " times (" + String.format("%.2f", (double)peopleCounter5 / wordCount5 * 100) + "%)");
+        System.out.println("The word 'government' used " + governmentCounter5 + " times (" + String.format("%.2f", (double)governmentCounter5 / wordCount5 * 100) + "%)");
+        System.out.println("The word 'united' used " + unitedCounter5 + " times (" + String.format("%.2f", (double)unitedCounter5 / wordCount5 * 100) + "%)");
+        System.out.println("The word 'our' used " + ourCounter5 + " times (" + String.format("%.2f", (double)ourCounter5 / wordCount5 * 100) + "%)");
         System.out.println();
         
         
@@ -417,12 +417,11 @@ public class Presidentialspeeches
         }
 
         System.out.println("Total Words: " + wordCount6);
-        System.out.println("Average word length: " + (chars6 / wordCount6));
-        System.out.println("The word 'People' used " + peopleCounter6 + " times");
-        System.out.println("The word 'government' used " + governmentCounter6 + " times");
-        System.out.println("The word 'united' used " + unitedCounter6 + " times");
-        System.out.println("The word 'our' used " + ourCounter6 + " times");
-        System.out.println();
+        System.out.println("Average word length: "+String.format("%.2f", ((double)chars6/wordCount6)));
+        System.out.println("The word 'People' used " + peopleCounter6 + " times (" + String.format("%.2f", (double)peopleCounter6 / wordCount6 * 100) + "%)");
+        System.out.println("The word 'government' used " + governmentCounter6 + " times (" + String.format("%.2f", (double)governmentCounter6 / wordCount6 * 100) + "%)");
+        System.out.println("The word 'united' used " + unitedCounter6 + " times (" + String.format("%.2f", (double)unitedCounter6 / wordCount6 * 100) + "%)");
+        System.out.println("The word 'our' used " + ourCounter6 + " times (" + String.format("%.2f", (double)ourCounter6 / wordCount6 * 100) + "%)");
         
 }
 }
